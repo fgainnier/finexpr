@@ -25,6 +25,12 @@ gem 'coffee-rails', '~> 4.0.0'
 #Add Bootstrap
 gem 'bootstrap-sass'
 
+#Add Stripe
+gem 'stripe'
+
+#Add Figaro
+gem 'figaro'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

@@ -1,6 +1,4 @@
-<a href="">Produit 1</a>
-<a href="">Produit 2</a>
-
+<a href="">Produit</a>
 
 <%= form_tag charges_path, id: 'chargeForm' do %>
     <script src="https://checkout.stripe.com/checkout.js"></script>
@@ -20,7 +18,7 @@
      document.getElementById('btn-buy').addEventListener('click', function(e) {
       handler.open({
         name: 'One Month',
-        description: 'Growth Hacking Crash Course ($4.99)',
+        description: 'Produit ($4.99)',
         amount: document.getElementById("amount").value
     });
     e.preventDefault();

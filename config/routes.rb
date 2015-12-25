@@ -3,8 +3,11 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  #Suppot Stripe payments through charges
+  # Support Stripe payments through charges
   resources :charges
+
+  # Route for showing purchases
+  resources :purchases, only: [:show]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

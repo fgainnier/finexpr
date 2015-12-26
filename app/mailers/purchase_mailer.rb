@@ -8,4 +8,4 @@ class PurchaseMailer < ActionMailer::Base
 	 mail to: purchase.email, subject: "Thanks for your purchase!"
 	end
 
-end
+end	
